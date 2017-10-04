@@ -41118,10 +41118,11 @@
 	    return {
 	      messages: [],
 	      //socket: window.io('https://localhost:3000'),
-	      socket: window.io('https://sleepy-river-47414.herokuapp.com/'),
+	      socket: window.io('https://secure-spire-22112.herokuapp.com/'),
 	      user: undefined
 	    };
 	  },
+	  // 'https://sleepy-river-47414.herokuapp.com/'
 
 	  // openWindow: function(){
 	  //  window.open('https://secure-spire-22112.herokuapp.com/', 'chat-co', 'width=500, height=500');
