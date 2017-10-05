@@ -9,7 +9,7 @@ var io = require('socket.io')(http);
 
 var PORT = process.env.PORT || 3000;
 
-console.log(PORT);
+console.log("the port" + PORT);
 
 // connect to the database and load models
 require('./server/models').connect(config.dbUri);
@@ -59,6 +59,6 @@ app.use('/api', apiRoutes);
 
 
 // start the server
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log('Server is running on http://localhost:3000 or http://127.0.0.1:3000');
 });
