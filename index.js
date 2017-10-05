@@ -9,7 +9,7 @@ var io = require('socket.io')(http);
 
 var PORT = process.env.PORT || 3000;
 
-console.log(port);
+console.log(PORT);
 
 // connect to the database and load models
 require('./server/models').connect(config.dbUri);
