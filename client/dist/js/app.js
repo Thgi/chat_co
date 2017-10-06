@@ -34628,7 +34628,7 @@
 	  return _react2.default.createElement(
 	    _Card.Card,
 	    { className: 'container' },
-	    _react2.default.createElement(_Card.CardTitle, { title: 'Welcome to our chatroom', subtitle: 'All the juicy gossip is inside. Sign up or login to see...' })
+	    _react2.default.createElement(_Card.CardTitle, { title: 'Welcome to our chatroom', subtitle: 'Sign up or log in!' })
 	  );
 	};
 
@@ -41085,8 +41085,8 @@
 	    _Card.Card,
 	    { className: 'container' },
 	    _react2.default.createElement(_Card.CardTitle, {
-	      title: 'Chat Room',
-	      subtitle: 'Gossip all you want now...'
+	      title: 'Chat Room'
+
 	    }),
 	    secretData && _react2.default.createElement(
 	      _Card.CardText,
@@ -41171,6 +41171,31 @@
 
 	  newChat: function newChat() {
 	    alert("here goes code for new chat room");
+	    // var io;
+	    // var chatSocket;
+	    // var db;
+
+	    // var initChat = function(sio, socket, sdb) {
+	    //   io = sio;
+	    //   chatSocket = socket;
+	    //   db = sdb;
+	    //   chatSocket.emit("connected", { message: "You are connected!" });
+
+	    //   chatSocket.on("hostCreateNewChat", hostCreateNewChat);
+	    //   chatSocket.on("personJoinChat", personJoinChat);
+	    // }
+
+	    // function hostCreateNewChat() {
+	    //   //Create a unique Socket.IO. room
+	    //   var thisChatId = ( Math.random() * 100000 ) | 0;
+	    //   console.log(thisChatId);
+
+	    //   //Return the Room ID (chatId) and the socket ID (mySocketID) to the browser client
+	    //   this.emit("newChatCreated", {chatId: thisChatId, mySocketID: this.id});
+
+	    //   //Join the room and wait for other people
+	    //   this.join(thisChatId.toString());
+	    // };
 	  },
 
 	  pickUser: function pickUser() {
