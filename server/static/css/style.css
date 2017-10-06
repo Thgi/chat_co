@@ -22,6 +22,14 @@ a:hover {
 
 }
 
+ul {
+  text-align: left;
+}
+
+#message, #user, #chatGroup {
+  float: left;
+} 
+
 .top-bar {
   padding: 10px 15px;
   margin-bottom: 50px;

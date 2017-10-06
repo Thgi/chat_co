@@ -57,6 +57,31 @@ var ChatApp = window.React.createClass({
 
   newChat: function() {
     alert("here goes code for new chat room");
+    // var io;
+    // var chatSocket;
+    // var db;
+
+    // var initChat = function(sio, socket, sdb) {
+    //   io = sio;
+    //   chatSocket = socket;
+    //   db = sdb;
+    //   chatSocket.emit("connected", { message: "You are connected!" });
+
+    //   chatSocket.on("hostCreateNewChat", hostCreateNewChat);
+    //   chatSocket.on("personJoinChat", personJoinChat);
+    // }
+
+    // function hostCreateNewChat() {
+    //   //Create a unique Socket.IO. room
+    //   var thisChatId = ( Math.random() * 100000 ) | 0;
+    //   console.log(thisChatId);
+
+    //   //Return the Room ID (chatId) and the socket ID (mySocketID) to the browser client
+    //   this.emit("newChatCreated", {chatId: thisChatId, mySocketID: this.id});
+
+    //   //Join the room and wait for other people
+    //   this.join(thisChatId.toString());
+    // };
   },
 
   pickUser: function(){

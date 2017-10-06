@@ -141,8 +141,9 @@
 
 </head>
 <body>
+	<div class="jumbotron">
   <div id="react-app"></div>
-
+</div>
 	<script>
 
 		$(document).ready(function() {
@@ -182,7 +183,7 @@
 		// }, 1000);
 
 
-		$("#chat").keyup(function(event){
+		$("#react-app").keyup(function(event){
 			if(event.keyCode == 13){
 				$("#messageButton").click();
 			}
