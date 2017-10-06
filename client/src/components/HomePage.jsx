@@ -4,7 +4,7 @@ import { Card, CardTitle } from 'material-ui/Card';
 
 const HomePage = () => (
   <Card className="container">
-    <CardTitle title="Welcome to our chatroom" subtitle="All the juicy gossip is inside. Sign up or login to see..." />
+    <CardTitle title="Welcome to our chatroom" subtitle="Sign up or log in!" />
   </Card>
 );
 

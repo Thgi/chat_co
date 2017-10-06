@@ -6,7 +6,7 @@ const Dashboard = ({ secretData }) => (
   <Card className="container">
     <CardTitle
       title="Chat Room"
-      subtitle="Gossip all you want now..."
+      
     />
 
     {secretData && <CardText style={{ fontSize: '16px', color: 'orange' }}>{secretData}</CardText>}
