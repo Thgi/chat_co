@@ -41199,7 +41199,8 @@
 	  },
 
 	  pickUser: function pickUser() {
-	    var user = document.getElementById("user").value;
+	    var sendDate = new Date().toString();
+	    var user = "(" + " " + sendDate.replace("GMT-0700 (PDT)", '') + ")" + " " + document.getElementById("user").value;
 	    this.setState({ user: user });
 	  },
 
